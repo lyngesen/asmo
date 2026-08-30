@@ -1,0 +1,8 @@
+numpy
+docplex
+pytest
+matplotlib
+pyomo
+tqdm
+shapely
+scipy

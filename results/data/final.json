@@ -1,0 +1,32 @@
+{
+    "max_size": 100,
+    "max_subproblems": 3,
+    "min_subproblems": 2,
+    "max_seed": 20,
+    "strategy_subproblem_selection": [
+        "sequential",
+        "alternating"
+    ],
+    "strategy_node_priority": [
+        "largest"
+    ],
+    "strategy_reduction": [
+        "first",
+        "none",
+        100,
+        50
+    ],
+    "strategy_update_node_priority": [
+        "all"
+    ],
+    "strategy_refine_with_integer_gap": [
+        false
+    ],
+    "strategy_refine_method": [
+        "slow"
+    ],
+    "strategy_search_method": [
+        "bbm",
+        "phase1"
+    ]
+}
